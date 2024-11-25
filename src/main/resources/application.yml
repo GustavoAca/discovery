@@ -4,6 +4,9 @@ spring:
   config:
     activate:
       on-profile: dev
+  jackson:
+    time-zone: America/Sao_Paulo
+  timezone: America/Sao_Paulo
 
 eureka:
   client:
