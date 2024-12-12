@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.glaiss</groupId>
 	<artifactId>discovery</artifactId>
-	<version>0.4.0</version>
+	<version>0.5.0</version>
 	<name>discovery</name>
 	<description>Projeto de observacao de instancias de apis</description>
 	<url/>
