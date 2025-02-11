@@ -1,9 +1,6 @@
 spring:
   application:
     name: discovery
-  config:
-    activate:
-      on-profile: dev
   jackson:
     time-zone: America/Sao_Paulo
   timezone: America/Sao_Paulo
@@ -21,3 +18,10 @@ management:
     web:
       exposure:
         include: "*"
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+server:
+  port: ${PORT}
