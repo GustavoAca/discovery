@@ -12,6 +12,8 @@ eureka:
 
 server:
   port: ${PORT:8761}
+  servlet:
+    context-path: /discovery
 
 management:
   endpoints:
